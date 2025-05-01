@@ -1,5 +1,6 @@
 import { personalInfo } from "@/lib/data";
 import { motion } from "framer-motion";
+import SpotifyEmbed from "@/react/spotifyEmbed";
 
 export default function Footer() {
   return (
@@ -19,6 +20,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} {personalInfo.name}. All rights
             reserved. ✨
           </motion.p>
+          
           <motion.p
             className="text-sm text-muted-foreground mt-2 md:mt-0 text-center md:text-left"
             initial={{ opacity: 0 }}
@@ -51,6 +53,7 @@ export default function Footer() {
               ❤️
             </motion.span>
           </motion.p>
+          <SpotifyEmbed/>
         </motion.div>
       </div>
     </footer>

@@ -138,6 +138,7 @@ export default function HeroSection() {
             </p>
           </div>
         </MotionWrapper>
+
       </div>
     </section>
   );
