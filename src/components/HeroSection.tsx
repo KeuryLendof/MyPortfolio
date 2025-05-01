@@ -107,6 +107,28 @@ export default function HeroSection() {
             whileTap={{ scale: 0.95 }}
           >
             <div className="relative">
+              <motion.div
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 260,
+                  damping: 20,
+                  delay: 0.05,
+                }}
+                whileHover={{ scale: 1.05, y: -2 }}
+                className="absolute z-40 -bottom-2 
+                left-1/2 -translate-x-1/2"
+              >
+                <a
+                  className=" 
+                text-muted-foreground inline-flex items-center justify-center w-auto px-3 py-1  border border-purple-500/20 dark:border-purple-500/10  text-sm bg-[#fcecf8] rounded-full dark:bg-purple-500/50 dark:text-white/80 backdrop-blur-3xl whitespace-nowrap"
+                  href="mailto:lendofkeury@gmail.com"
+                >
+                  {" "}
+                  Available for work{" "}
+                </a>
+              </motion.div>
               <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <img
                 src="/photo2.jpg"

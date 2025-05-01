@@ -116,6 +116,14 @@ export const projects = [
     tech: ["Angular", "Tailwind CSS", "PrimeNg"]
   },
   {
+    title: "SIGIR - Reforestation Management System",
+    web: "https://sigir.mepyd.gob.do",
+    image: "/projects/sigir.png",
+    description:
+      "Web platform supporting the Dominican Republic's National Reforestation Plan. It provides a dashboard to visualize environmental initiatives and manage forestry efforts across the country.",
+    tech: ["Angular", "SCSS", "PrimeNG"],
+  },
+  {
     title: "Crypto100",
     web: "https://top-100-cryptocurrencies.vercel.app/",
     image: "/projects/cryptocurrencies.jpeg", 
