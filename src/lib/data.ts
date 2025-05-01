@@ -108,27 +108,27 @@ export const skills = {
 
 export const projects = [
   {
-    title: "Net Zero Carbon Emissions",
-    github: "https://github.com/rishikesh2003/Prodigi",
-    description: [
-      "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
-      "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
-      "Real-Time Tracking: Designed systems to monitor carbon emissions and optimize resources.",
-      "Data-Driven Insights: Analyzed user patterns for adaptive energy and food management.",
-      "Reward Integration: Built QR-based green points system to incentivize eco-friendly actions.",
-    ],
+    title: "Catálogo de Oferta de Cooperación",
+    github: "",
+    web: "https://oferta-rd.mepyd.gob.do/",
+    image: "/projects/catalogo.png",
+    description: "International Cooperation Catalog Portal for the Dominican Republic government, showcasing technical cooperation capabilities and international partnerships.",
+    tech: ["Angular", "Tailwind CSS", "PrimeNg"]
   },
   {
-    title: "Mental Aarog",
-    github: "https://github.com/rishikesh2003/mental-aarog",
-    description: [
-      "A holistic mental health app leveraging AI and blockchain for early detection and personalized solutions for depression.",
-      "Features include social media analysis (ML-based sentiment tracking), PHQ-9 assessments, smartwatch integration for sleep and activity data, guided meditation, and smart suggestions for food, travel, music, and movies.",
-      "Developed a rewards system using MAG crypto token on Ethereum, enabling user engagement through in-app incentives.",
-      "Secure storage implemented via web3.storage, IPFS, and FileCoin.",
-      "Built with React, Supabase, Node.js, Flask, and Solidity, showcasing seamless integration of health tech and blockchain.",
-    ],
+    title: "Crypto100",
+    web: "https://top-100-cryptocurrencies.vercel.app/",
+    image: "/projects/cryptocurrencies.jpeg", 
+    description: "Crypto100 is a web app that offers a fundamental analysis of the cryptocurrency market, tracking prices, volume, and market capitalization of the top 100 coins.",
+    tech: ["React", "Fetch API"]
   },
+  {
+    title: "Shabless E-Commerce",
+    web: "https://shabless.vercel.app", // actualiza si tienes una URL real
+    image: "/projects/shabless.jpeg", // asegúrate de guardar la imagen con ese nombre
+    description: "Shabless is an e-commerce platform for accessories, designed for users looking to enhance their personal style with unique and high-quality products.",
+    tech: ["React", "Firebase"]
+  }
 ];
 
 export const awards = [

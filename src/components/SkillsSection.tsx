@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
 import { GlassCard } from "./ui/glass-card";
 
-function SkillTag({ skill, index }: { skill: string; index: number }) {
+export function SkillTag({ skill, index }: { skill: string; index: number }) {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.8 }}
