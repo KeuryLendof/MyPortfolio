@@ -29,9 +29,9 @@
 
 ## 📫 Contacto
 
-- Email: keurylendof@example.com  
-- LinkedIn: [linkedin.com/in/keurylendof](#)  
-- Portfolio Online: [https://tudominio.com](#)
+- Email: lendofkeury@gmail.com  
+- LinkedIn: [linkedin.com/in/keury-lendof-599b82185/](#)  
+- Portfolio Online: [https://keurylendof.com](#)
 
 ---
 
