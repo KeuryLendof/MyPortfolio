@@ -6,8 +6,8 @@ interface Props {
   description?: string;
 }
 
-const { title = "Keury Lendof - Portfolio", description = "My Portfolio" } =
-  Astro.props;
+const { title = "Keury Lendof - Portfolio", description = "Passionate Frontend Developer showcasing projects, skills, and experience." } = Astro.props;
+
 ---
 
 <!doctype html>
@@ -18,6 +18,8 @@ const { title = "Keury Lendof - Portfolio", description = "My Portfolio" } =
     <link rel="icon" type="image/svg+xml" href="/kl.svg" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
+    <meta name="theme-color" content="#1e1b4b" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
     <title>{title}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
