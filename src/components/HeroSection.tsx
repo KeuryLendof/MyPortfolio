@@ -122,23 +122,23 @@ export default function HeroSection() {
           <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
-              🚀 Passionate web developer with experience in technologies like
-              Angular, Tailwind CSS, and Astro. Since I started my journey in
-              programming in 2021, I’ve worked on a variety of projects—from
-              interactive web apps to fully customized portfolios. My main focus
-              is on delivering clean, user-friendly, and efficient solutions that
+              🚀 Passionate web developer with 4+ years of experience,
+              specializing in Angular, and experienced with modern tools like
+              Tailwind CSS and Astro. Since starting my programming journey in
+              2021, I’ve worked on a variety of projects—from interactive web
+              apps to fully customized portfolios. My main focus is on
+              delivering clean, user-friendly, and efficient solutions that
               provide real value.
               <br />
               <br />
               I'm constantly seeking to grow as a developer, learning new tools
-              and best practices to stay up to date with the latest trends in the
-              industry. I’m driven by challenges, dedicated to clean code, and
-              always looking for opportunities to build impactful digital
+              and best practices to stay up to date with the latest trends in
+              the industry. I’m driven by challenges, dedicated to clean code,
+              and always looking for opportunities to build impactful digital
               experiences.
             </p>
           </div>
         </MotionWrapper>
-
       </div>
     </section>
   );
