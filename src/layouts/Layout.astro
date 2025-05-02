@@ -6,8 +6,10 @@ interface Props {
   description?: string;
 }
 
-const { title = "Keury Lendof - Portfolio", description = "Passionate Frontend Developer showcasing projects, skills, and experience." } = Astro.props;
-
+const {
+  title = "Keury Lendof - Portfolio",
+  description = "Passionate Frontend Developer showcasing projects, skills, and experience.",
+} = Astro.props;
 ---
 
 <!doctype html>
@@ -15,16 +17,27 @@ const { title = "Keury Lendof - Portfolio", description = "Passionate Frontend D
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/kl.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
 
-    <meta name="theme-color" content="#1e1b4b" media="(prefers-color-scheme: dark)" />
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta
+      name="theme-color"
+      content="#1e1b4b"
+      media="(prefers-color-scheme: dark)"
+    />
+    <meta
+      name="theme-color"
+      content="#ffffff"
+      media="(prefers-color-scheme: light)"
+    />
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Keury Lendof - Portfolio" />
-    <meta property="og:description" content="Passionate Frontend Developer showcasing projects, skills, and experience." />
+    <meta
+      property="og:description"
+      content="Passionate Frontend Developer showcasing projects, skills, and experience."
+    />
     <meta property="og:image" content="https://keurylendof.com/profile3.png" />
     <meta property="og:url" content="https://keurylendof.com" />
     <meta property="og:type" content="website" />
@@ -32,17 +45,48 @@ const { title = "Keury Lendof - Portfolio", description = "Passionate Frontend D
     <!-- Twitter Card (opcional, mejora la vista en X/Twitter) -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Keury Lendof - Portfolio" />
-    <meta name="twitter:description" content="Passionate Frontend Developer showcasing projects, skills, and experience." />
+    <meta
+      name="twitter:description"
+      content="Passionate Frontend Developer showcasing projects, skills, and experience."
+    />
     <meta name="twitter:image" content="https://keurylendof.com/profile3.png" />
 
+    <!-- Canonical (evita duplicados de URL) -->
+    <link rel="canonical" href="https://keurylendof.com" />
+
+    <!-- Author -->
+    <meta name="author" content="Keury Lendof" />
+
+    <!-- Keywords (aún útil en algunos motores de búsqueda) -->
+    <meta
+      name="keywords"
+      content="Keury Lendof, frontend developer, angular, astro, tailwind, react, software portfolio, developer portfolio"
+    />
 
     <title>{title}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="/fonts/inter.gstatic" as="font" type="font/gstatic" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Keury Lendof",
+        "url": "https://keurylendof.com",
+        "sameAs": [
+          "https://github.com/keurylendof",
+          "https://www.linkedin.com/in/keury-lendof-599b82185/"
+        ],
+        "jobTitle": "Frontend Developer",
+        "description": "Passionate frontend developer with experience in Angular, Tailwind, and Astro.",
+        "image": "https://keurylendof.com/profile3.png"
+      }
+    </script>
   </head>
   <body
     class="min-h-screen bg-background font-sans antialiased selection:bg-purple-500/20 selection:text-purple-500"
