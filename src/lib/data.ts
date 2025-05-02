@@ -1,9 +1,10 @@
 export const personalInfo = {
   name: "Keury Lendof",
-  location: "Pensilvania, USA",
+  location: "Estados Unidos",
   email: "lendofkeury@gmail.com",
   github: "https://github.com/keurylendof",
   linkedin: "https://www.linkedin.com/in/keury-lendof-599b82185/",
+  phone: "+1 929-404-3848"
 };
 
 export const workExperience = [
