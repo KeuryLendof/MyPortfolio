@@ -109,6 +109,14 @@ export const skills = {
 
 export const projects = [
   {
+    "title": "Alfredo’s Café Website",
+    "github": "",
+    "web": "https://alfredoscafe.netlify.app/",
+    "image": "/projects/alfredos.jpeg",
+    "description": "Marketing + menu site for Alfredo’s Café (featured in *The Office*). Built with Astro for fast, SEO-friendly pages; custom components for dynamic hours, menu JSON, gallery lightbox and CMS-ready content.",
+    "tech": ["Astro", "Tailwind CSS", "TypeScript", "Swiper", "GLightbox"]
+  },
+  {
     title: "Catálogo de Oferta de Cooperación",
     github: "",
     web: "https://oferta-rd.mepyd.gob.do/",
